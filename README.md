@@ -2,6 +2,23 @@
 
 ## Teenage pregnancy counselling and guidance website
 
+### My Team
+#### 1. Shweta Mandal 
+
+   Github profile : https://github.com/Shweta2003
+
+#### 2. Abhishek Mahajan
+
+   Github profile : https://github.com/abhishekmahajan3711
+   
+#### 3. Smita Bandi
+
+   Github profile : 
+   
+#### 4. Siddhant Patil
+
+   Github profile : 
+
 ### Problem Statement
 
 India has the largest adolescent population in the world. Estimates from the 4th National Family Health Survey indicate that 11.8 million teenage pregnancies occured in India.
