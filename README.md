@@ -118,6 +118,14 @@ We have used firebase to store data of user and other parties in the backend whi
 ![image](https://github.com/Shweta2003/SAHARA/assets/65994349/3654e0de-15bc-46c6-81ec-c4be580397a8)
 
 
+## Future Scope
+
+We will increase the database of doctors and consultants working in collaboration with us by actually visiting different offices and promoting our website.
+
+
+We also plan to further expand the website in the financial and donate sector so that we can actually verify which user is in need of these services and will be benefitted by them.
+
+We plan to further survey the victims of such cases so that we can broaden your views and overcome if we are missing something.
 
 
 
