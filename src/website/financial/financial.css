@@ -1,0 +1,212 @@
+.finance-form {
+   border: solid 2px black;
+   width: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50px;
+   background: #ffffff;
+ }
+ 
+.finance-sector{
+  width: 100%;
+  display: flex;
+  margin-top: -70px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.form-part{
+  height: 70vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #cdcacc;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.part-of-it{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.part-of-it b{
+  width: 80%;
+  text-align: left;
+  margin-bottom: -10px;
+}
+
+.part-of-it input, .part-of-it textarea{
+  width: 80%;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.finance-some{
+  width: 100%;
+  height: 100%;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+
+
+ .finance-nav {
+  margin-top: -70px;
+  z-index: 4;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 85vh;
+   text-align: center;
+   justify-content: space-between;
+   background-color: black;
+ }
+ .bg-of-finance{
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  height: 85vh;
+  opacity: 70%;
+}
+
+.finance-text{
+  z-index: 4;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 460%;
+  font-weight: 600;
+  margin-top: 30%;
+  color: #ffffff;
+}
+ .donnate {
+   background-repeat: no-repeat;
+   background-position: 8cm;
+   background-size: 5cm;
+ }
+ .finance-navbar-text {
+   text-decoration: none;
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 29px;
+ 
+   margin: 0;
+ 
+   color: #000000;
+ }
+ 
+ .finance-p-text {
+  width: 90%;
+  text-align: justify;
+  margin: 2%;
+  font-size: 150%;
+ }
+
+ .do-some-name{
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  padding: 20px;
+  font-weight: bolder;
+ }
+ 
+ .finance-form-input {
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 48px;
+ }
+
+ .form-bg-financial{
+  width: 50%;
+  object-fit:cover;
+  height: 70vh;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+ }
+
+ .finance-button {
+   border-radius: 12px;
+   text-shadow: 1px 1px 3px #e9b0b0;
+   font-family: Arial;
+   color: #ffffff;
+   font-size: 15px;
+   background: #e083cb;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+   margin-bottom: 20px;
+ }
+ .button {
+   margin: 5% 40%;
+ }
+
+ @media screen and (max-width:850px) {
+  /* financial aid */
+  .finance-form{
+    height: 60vh;
+      flex-direction: column;
+      min-width: 100%;
+      background-color: #000000;
+  }
+
+  .form-bg-financial{
+      opacity: 70%;
+      border-radius: 50px;
+      position: absolute;
+      min-width: 100%;
+      height: 60vh;
+  }
+
+  .finance-text{
+    margin-top: 60vh;
+  }
+
+  .part-of-it b{
+    color: rgb(240, 247, 241);
+    font-size: larger;
+  }
+
+  .form-part{
+      z-index: 2;
+      border-radius: 50px;
+      min-width: 100%;
+      background: none;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .finance-p-text{
+    overflow-x: hidden;
+    font-size: large;
+  }
+
+  .finance-form{
+    height: 75vh;
+  }
+
+  .form-bg-financial{
+    height: 75vh;
+  }
+
+  .finance-text{
+    margin-top: 50vh;
+    font-size: 13vw;
+  }
+
+}
+ 

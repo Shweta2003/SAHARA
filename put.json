@@ -1,0 +1,22 @@
+[
+    {
+        "hospital": "Indira Gandhi Medical College",
+        "city": "Shimla",
+        "doctor": "Dr. Suresh Sankhyan"
+    },
+    {
+        "hospital": "Dr. Rajendra Prasad Government Medical College",
+        "city": "Tanda",
+        "doctor": "Dr. Vinod K. Kaushal"
+    },
+    {
+        "hospital": "Zonal Hospital",
+        "city": "Dharamshala",
+        "doctor": "Dr. Ashok Sharma"
+    },
+    {
+        "hospital": "Shri Lal Bahadur Shastri Government Medical College",
+        "city": "Mandi",
+        "doctor": "Dr. Ajay Kumar"
+    }
+]

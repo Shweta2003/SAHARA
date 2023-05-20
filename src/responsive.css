@@ -1,0 +1,899 @@
+
+
+@media screen and (max-width:1030px) {
+
+    .App{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .c1{
+        display: none;
+        height: 100%;
+    }
+
+    .c2{
+        display: flex;
+        width: 100%;  
+        opacity: 85%; 
+    }
+
+    .card1{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .card-inner{
+        flex-direction: column-reverse;
+        height: calc(100vw + 30vw);
+        width: 100%;
+    }
+
+    .cardA{
+        align-items: flex-start;
+        position: relative;
+        padding-left: 5%;
+    }
+
+    .cardB{
+        position: relative;
+        align-items: flex-end;
+        padding-right: 5%
+        
+    }
+    .button1{
+        width: 55%;
+    }
+
+    .p2{
+        text-align: left;
+
+    }
+
+    .p1{
+        text-align: right;
+    }
+    .file-complaint{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;  
+    }
+
+    .b21{
+        right:15%;
+        color: rgb(254, 253, 253);
+        background-color: black;
+    }
+
+    .k{
+        margin-top: 25%;
+        width: 50%;
+        right:15%;
+        color: rgb(255, 252, 252);
+    }
+
+    .b22{
+        left:15%;
+        color: rgb(254, 253, 253);
+        background-color: black;
+        border-color: white;
+    }
+
+    .k2{
+        margin-top: 25%;
+        width: 50%;
+        left: 15%;
+    }
+
+    .bg31{
+        display: none;
+    }
+    .bg3{
+        display: flex;
+        width: 70%;
+        height: 100%;
+        object-fit: none;
+        float:right;
+        margin-right: 60px;
+        opacity: 75%;
+        border-radius: 0px 100px 100px 100px;
+    }
+
+    .bg4{
+        display: flex;
+        width: 70%;
+        height: 100%;
+        object-fit: none;
+        float:left;
+        margin-left: 60px;
+        opacity: 75%;
+        border-radius: 100px 0px 100px 100px;
+    }
+
+    .bg41{
+        display: none;
+    }
+    .slide{
+        width:100%;
+    }
+
+    .section-1 h1{
+        margin-left: 10%;
+    }
+
+    /* counselling */
+
+    .counsel-btn{
+        width: 70%;
+      }
+
+      .counsel-btn-book, .counsel-btn-book-2{
+        width: 70%;
+      }
+
+      .anon-body{
+        height: 95vh;
+      }
+
+      .anon-back{
+        height: 100%;
+      }
+
+      .anon-form{
+        margin-top: 260px;
+        width: 90%;
+        height: 50vw;
+
+    }
+
+    .submit-button{
+        padding: 3px;
+    }
+
+    /* login page */
+    .login-body{
+        width: 90%;
+    }
+
+    .login-b img{
+        width: 90%;
+    }
+
+    /* doctor */
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        margin: 15% 0%;
+    }
+
+    .just-info-2{
+        width: 20%;
+        font-size: 210%;
+    }
+
+    /* complaint */
+    .complaint-head {
+
+        width: 95%;
+        display: flex;
+        margin: auto;
+        margin-top: -70px;
+        justify-content: space-evenly;
+          
+        }
+        
+        .head-p {
+          right: 3%;
+          top: 8%;
+        }
+        
+        .comp-img{
+          width: 100%;
+          height: 30%;
+        }
+        
+        .comp-p{
+          width: 90%;
+          text-align: center;
+          font-size: 105%;
+        }
+        
+        .comp-name{
+          font-size: 200%;
+          height: 10%;
+          
+        }
+
+}
+
+@media screen and (max-width:850px) {
+    /* about */
+    .about-bg{
+        height: 88%;
+    }
+
+    .btbt{
+        margin-top: 30%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bgbgbg{
+        height: 67%;
+    }
+
+    .about-container1{
+        margin-top: 20%;
+    }
+
+
+
+    /* donate */
+    .donatepage{
+        margin-top: 30px;
+        height: 50vh;
+    }
+
+    .donate-bg{
+        height: 55vh;
+    }
+
+    .donate-box{
+        height: 60vh;
+    }
+
+    .dropdown-content{
+        display: none;
+    }
+
+    .header-list{
+        display: none;
+    }
+
+    .header{
+        overflow: visible;
+        border-radius: 0%;
+    }
+
+    .responsive-drop-{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 70px;
+        right: 0px;
+        z-index: 7;
+        align-items: center;
+        background-color: #372948;
+        opacity:80%;
+        width: 100vw;
+
+    }
+
+    .droping{
+        display: block;
+        margin-top: 5px;
+        width: 60px;
+        height: 60px;
+        margin-right: 2%;
+        margin-left: auto;
+        border-radius: 50%;
+    }
+    
+
+    .droping img{
+        width: 100%;
+        border-radius: 50%;
+
+    }
+    .response{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .responsive-drop-show{
+        display: none;
+    }
+
+    .cl{
+        display: flex;
+    }
+
+    .responsive-drop-showshow{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 70px;
+        right: 0px;
+        z-index: 7;
+        align-items: center;
+        background-color: #372948;
+        opacity:80%;
+        width: 100vw;
+    }
+
+    /* counselling */
+    .counselling-body{
+        margin: -10% 0%;
+    }
+
+    .q1 h1, .q2 h1{
+        font-size: x-large;
+    }
+
+    .counsel-carausel{
+        margin-top: -15%;
+    }
+    
+
+}
+
+@media screen and (max-width:650px){
+    .just-head{
+        font-size: 200%;
+    }
+
+    .just-info{
+        display: none;
+    }
+
+    .just-info-2{
+        width: 100%;
+        font-size: 150%;
+    }
+
+    .bottom{
+        width: 80%;
+        margin-left: 1%;
+    }
+
+    .div-carausel{
+        margin-bottom: 20%;
+    }
+
+    .doc-app-body{
+        margin-top: 50px;
+    }
+
+    .do-now{
+        width: 180%;
+        margin-left: -50px;
+    }
+
+    .no-content{
+        margin-top: 18%;
+    }
+    .App{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        margin-left: -20px;
+        width: 110%;
+    }
+
+    .c2{
+        display: none;
+    }
+
+    .c3{
+        display: block;
+        width: 100%;
+        height: 100%;
+        opacity: 75%;
+        scale: 1.2;
+        overflow: hidden;
+    }
+
+    .slide{
+        width: 60vw;
+    }
+
+    .ppp{
+        position: absolute;
+       bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 40%;
+        overflow-y: hidden;
+    }
+
+    .img{
+        object-fit: cover;
+    }
+
+    .card1{
+        overflow: hidden;
+        height: fit-content;
+        justify-content: space-evenly;
+    }
+
+    .button-of-slideshow{
+        width: 65%;
+        margin-top: 59%;
+        margin-left: 17%;
+    }
+
+    .card-inner{
+        flex-direction: column;
+        align-items: center;
+        margin: 70px 0px;
+
+        height: 100%;
+        width: 100%;
+    }
+
+    .cardA, .cardB{
+        margin: 0;
+        text-align: center;
+        align-items: center;
+        position: relative;
+        padding:0;
+    }
+
+    .button1{
+        width: 90%;
+        padding: 1%;
+    }
+
+    .b11, .b12{
+        margin: 0;
+        border-color: white;
+        color: white;
+        background-color: black;
+    }
+
+    .p2, .p1{
+        text-align: center;
+        width: 100%;
+        color: white;
+
+    }
+
+    .f1{
+        font-size: 30px;
+    }
+
+    .search{
+        width: 75%;
+    }
+
+    .file-complaint{
+        align-items: center;
+        padding: 0%;
+    }
+
+    .bg3, .bg4{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 0%;
+    }
+
+    .b21 {
+        margin-top: 10%;
+        right:auto;
+        border-radius: 30px;
+        
+    }
+
+
+    .donate{
+        align-items: center;
+    }
+
+    .b22{ 
+        margin-top: 10%;
+        left:5%;   
+        border-radius: 30px;  
+    }
+
+    .k, .k2{
+        width: 100%;
+        padding: 5%;
+        text-align: center;
+        left:auto;
+        right:auto;
+    }
+
+    .Footer{
+        margin-top: 20px;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .vertical-line{
+        width: 97%;
+        height:2px;
+        background-color: white;
+        margin-left: 0px;
+    }
+
+    .section-1 h1{
+        width: 100%;
+        margin-left: -10px;
+        margin-top: 0px;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+
+    .section-1{
+        padding: 4% 0px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .section-2{
+        padding: 4%;
+        width: 100%;
+        flex-direction: row;
+    }
+     /* counselling */
+
+     .counsel-btn{
+        width: 70%;
+        padding-top: 0%;
+        margin-top: -5%;
+        height: 20vw;
+        font-size: 120%;
+      }
+
+      .counsel-btn-book, .counsel-btn-book-2{
+        width: 70%;
+        height: 90px;
+      }
+
+      .counsel-btn-book-2{
+        margin-top: 35px;
+      }
+
+      .anon-out{
+        flex-direction: column;
+      }
+
+
+      .anon-form{
+        margin-top: 170px;
+        height: max-content;
+        width: 85%;
+        padding-bottom: 20px;
+      }
+
+      .anonymous-head{
+        font-size: 30px;
+        margin-top: 100px;
+      }
+
+      .anon-b label{
+        font-size: 15px;
+      }
+
+      .anon-b{
+        margin-left: -10vw;
+      }
+
+      .state{
+        font-size: 20px;
+        padding: 7px;
+        width: 150%;
+      }
+
+      .anon-out-b{
+        width: 50%;
+      }
+
+      /* login page */
+    .login-b{
+        margin-bottom: 10vw;
+    }
+
+    .login-body{
+        height: 50%;
+    }
+
+    .ttt{
+        text-align: center;
+    }
+
+    /* appointment details */
+    .approv-1{
+        height: 40vw;
+    }
+
+    .b{
+        text-align: start;
+        justify-content: flex-start;
+        overflow-y: hidden;
+    }
+
+    .approv-p-right, .approv-p-left{
+        text-align: left;
+        padding-left: 8px;
+        padding-bottom: 8px;
+        padding-top: 2px;
+        
+    }
+
+    .btn-class{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .bb{
+        margin: 10px;
+        width: 80%;
+    }
+    
+
+}
+
+@media screen and (max-width:480px) {
+
+    /*counselling  */
+    .something-h1{
+        font-size: 250%;
+    }
+
+    .q1, .q2{
+        width: 95%;
+        margin:0;
+        margin-bottom: 20px;
+    }
+
+    .q1 h1, .q2 h1{
+        font-size: large;
+    }
+
+    .q1 h1{
+        margin-left: -50px;
+    }
+    .q2 img{
+        margin-right: -60px;
+    }
+
+    .a1{
+        font-size: 220%;
+    }
+
+    .so-much-for-div{
+        overflow-x: hidden;
+    }
+
+    .counselling-body{
+        margin-top: 5%;
+    }
+
+    .counsel-carausel{
+        margin-top: -25%;
+        font-size: 80%;
+    }
+
+    /* about */
+    .about-bg{
+        height: 138%;
+    }
+
+    .val{
+        margin-left: 70px;
+    }
+
+    .AB{
+        text-align: center;
+        color: black;
+    }
+
+    .map-img{
+        width: 100%;
+    }
+
+    .region1 , .region2{
+        height: 300px;
+    }
+
+    .about-container1, .about-container2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-container2{
+        margin-top: -10px;
+    }
+
+    .container1-child{
+        padding: 10px;
+        margin: 20px;
+        width: 90%;
+    }
+
+    .container2-child{
+        margin: 20px;
+        width: 130%;
+        margin-left: -15%;
+    }
+
+    .bgbgbg{
+        height: 192%;
+    }
+
+    /* donate */
+    .donatepage{
+        height: 120vh;
+    }
+
+    .donate-box h1{
+        font-size: 10vw;
+    }
+
+    .donate-bg{
+        height: 120vh;
+    }
+
+    .donate-box{
+        height: 120vh;
+    }
+
+    .donate-box input{
+        width: 50%;
+    }
+
+    .dropdown-content{
+        display: none;
+    }
+
+    .c3{
+        display: none;
+    }
+
+    .card-inner{
+        margin-top: 0%;
+        margin-bottom: 0%;
+        position: relative;
+    }
+
+    .card1{
+        position: relative;
+        height: fit-content;
+        height: max-content;
+        overflow: visible;
+    }
+
+    .button1{
+        margin-bottom: 3%;
+
+    }
+
+    .b11, .b12{
+        background: none;
+        border-color: black;
+        border-radius: 30px;
+        border: 3px solid black;
+    }
+
+    .cardA{
+        padding: 7%;
+        background-color: #fb8dc0;
+    }
+
+    .cardB{
+        padding: 7%;
+        background-color: #00b299;
+    }
+
+    .search{
+        width: 65%;
+    }
+
+    .par{
+        width: 100%;
+        margin-left: -10px;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+     /* counselling */
+
+     .counsel-btn{
+        width: 90%;
+        height: 27vw;
+
+      }
+
+      .counsel-btn-book, .counsel-btn-book-2{
+        width: 90%;
+      }
+
+      .counsel-btn-book-2{
+        margin-top: 35px;
+      }
+
+      .anon-back{
+        height: 100%;
+      }
+
+      .anon-form{
+        margin-top: 60vw;
+
+    }
+
+      /* login page */
+
+    .login-b {
+        height: 400px;
+        margin: 0%;
+        margin-bottom: 70px;
+    }
+
+    .login-b img{
+        display: none;
+    }
+
+    .login-body{
+        height: 400px;
+    }
+
+    .signout button{
+        height: 300px;
+        background-color: #00b299;
+    }
+
+    .login-form{
+        background-color: #00b299;
+    }
+
+    .ttt{
+        padding: 20px;
+    }
+
+    /* complaint */
+    .complaint-head {
+
+        width: 95%;
+        display: flex;
+        margin: auto;
+        margin-top: -70px;
+        justify-content: space-evenly;
+          
+        }
+
+        .comp-box-body{
+            margin-top: 195%;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 220%;
+        }
+
+        .comp-box{
+            padding-top: 10%;
+            width: 100%;
+            margin-bottom: -20%;
+        }
+        
+        .head-p {
+          right: 3%;
+          top: 8%;
+        }
+        
+        .comp-img{
+            width: fit-content;
+          height: 30%;
+        }
+        
+        .comp-p{
+          width: 90%;
+          text-align: center;
+          font-size: 105%;
+        }
+        
+        .comp-name{
+          font-size: 200%;
+          height: 10%;
+          
+        }
+    
+}
