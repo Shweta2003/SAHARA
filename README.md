@@ -85,6 +85,13 @@ We have used firebase to store data of user and other parties in the backend whi
 
 ![image](https://github.com/Shweta2003/SAHARA/assets/65994349/4482375a-4c91-4d15-947f-38175f1ffbd6)
 
+### email sent to required personal
+![image](https://github.com/Shweta2003/SAHARA/assets/65994349/878c100e-4a9e-4364-bfa9-ea0a66825442)
+
+![image](https://github.com/Shweta2003/SAHARA/assets/65994349/6f13a763-1b27-4e30-825d-d7506d441a51)
+
+![image](https://github.com/Shweta2003/SAHARA/assets/65994349/a2284bfa-f7fa-47b3-837d-4eb1f32af654)
+
 
 ##
 ## Doctor Help Us
