@@ -5,19 +5,19 @@
 ### My Team
 #### 1. Shweta Mandal 
 
-   Github profile : https://github.com/Shweta2003
+        https://github.com/Shweta2003
 
 #### 2. Abhishek Mahajan
 
-   Github profile : https://github.com/abhishekmahajan3711
+        https://github.com/abhishekmahajan3711
    
 #### 3. Smita Bandi
 
-   Github profile : 
+        Github profile : 
    
 #### 4. Siddhant Patil
 
-   Github profile : 
+        Github profile : 
 
 ### Problem Statement
 
